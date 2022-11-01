@@ -1,0 +1,26 @@
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+    margin-left: 35%;
+    width: 65%;
+    padding: 1px 16px;
+    position: fixed;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.me_img {
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-me {
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+}

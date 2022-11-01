@@ -1,0 +1,26 @@
+.content {
+    margin-left: 35%;
+    width: 65%;
+    padding: 1px 16px;
+    position: fixed;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.p {
+    font-family: Verdana, sans-serif;
+}
+
+.h1 {
+    font-family: Verdana, sans-serif;
+}
+
+.section-header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.languages {
+    margin-left: 100px;
+    font-size: 17px;
+}

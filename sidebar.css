@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     width: 35%;
-    background-color: #f1f1f1;
+    background-color: #83aae5;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -21,38 +21,51 @@
     text-align: center;
 }
 
+.a {
+    font-family: Verdana, sans-serif;
+}
+
 /* Sidebar links */
-.sidebar a.menu {
+.sidebar a.name-menu {
     display: block;
-    color: black;
+    color: #555555;
     padding: 16px;
     text-align: center;
     text-decoration: none;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.sidebar a.menu {
+    display: block;
+    color: #555555;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .sidebar a.icon {
-    color: #04AA6D;
+    color: #1e4072;
     font-size: 60px;
     margin: 10px;
 }
 
 .sidebar a.icon:hover:not(.active) {
-    color: black;
+    color: #555555;
 }
 
 /* Active/current link */
 .sidebar a.menu.active {
-    color: #04AA6D;
+    color: #1e4072;
+    font-weight: bold;
+}
+
+.sidebar a.name-menu.active {
+    color: #1e4072;
 }
 
 /* Links on mouse-over */
 .sidebar a.menu:hover:not(.active) {
-    color: #04AA6D;
-}
-
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-.content {
-    margin-left: 35%;
-    padding: 1px 16px;
-    height: 1000px;
+    color: #1e4072;
 }
