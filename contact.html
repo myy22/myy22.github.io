@@ -1,3 +1,16 @@
+<?php
+if($_POST["message"]) {
+
+
+    mail("your@email.address", "Here is the subject line",
+    
+    
+    $_POST["insert your message here"]. "From: an@email.address");
+    
+    
+    }
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -12,7 +25,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./sidebar.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./contact.css">
     <title>MarvinYang.com - v1.0</title>
 </head>
 
@@ -33,7 +46,18 @@
 
         <!-- Page Content -->
         <div class="content">
-            <p>Insert some form on how to contact me</p>
+            <div class="container">
+                <form action="mailto:myy22@cornell.edu" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input type="text" name="name" placeholder="Your Name ..."><br>
+                    Email:<br>
+                    <input type="text" name="email" placeholder="Your Email ..."><br>
+                    Note:<br>
+                    <input type="text" name="note" placeholder="Your Note ..." style="height:200px"><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
         </div>
     </div>
 </body>

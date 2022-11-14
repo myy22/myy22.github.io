@@ -1,7 +1,18 @@
+.content {
+    margin-left: 35%;
+    width: 65%;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #f1f1f1;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
     align-items: stretch;
+    height: 100%;
 }
 
 .sidebar {
@@ -67,5 +78,9 @@
 
 /* Links on mouse-over */
 .sidebar a.menu:hover:not(.active) {
+    color: #1e4072;
+}
+
+.sidebar a.name-menu:hover:not(.active) {
     color: #1e4072;
 }

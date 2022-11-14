@@ -22,5 +22,12 @@
 
 .languages {
     margin-left: 100px;
-    font-size: 17px;
+    font-size: 22px;
+}
+
+.tutorial {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }

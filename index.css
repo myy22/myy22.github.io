@@ -15,11 +15,12 @@
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 50px;
+    width: 300px;
 }
 
 .about-me {
     font-family: Verdana, sans-serif;
-    font-size: 17px;
+    font-size: 22px;
     display: block;
     margin-left: 150px;
     margin-right: 150px;
