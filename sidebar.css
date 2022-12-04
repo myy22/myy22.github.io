@@ -32,12 +32,9 @@
     text-align: center;
 }
 
-.a {
-    font-family: Verdana, sans-serif;
-}
-
 /* Sidebar links */
 .sidebar a.name-menu {
+    font-family: Verdana, sans-serif;
     display: block;
     color: #555555;
     padding: 16px;
@@ -48,6 +45,7 @@
 }
 
 .sidebar a.menu {
+    font-family: Verdana, sans-serif;
     display: block;
     color: #555555;
     padding: 16px;
@@ -70,6 +68,7 @@
 .sidebar a.menu.active {
     color: #1e4072;
     font-weight: bold;
+    padding-bottom: 0px;
 }
 
 .sidebar a.name-menu.active {
@@ -82,5 +81,19 @@
 }
 
 .sidebar a.name-menu:hover:not(.active) {
+    color: #1e4072;
+}
+
+.sidebar a.sub-menu {
+    font-family: Verdana, sans-serif;
+    display: block;
+    color: #555555;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.sidebar a.sub-menu:hover {
     color: #1e4072;
 }

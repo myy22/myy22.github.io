@@ -7,22 +7,46 @@
     background-color: #f1f1f1;
 }
 
-.p {
-    font-family: Verdana, sans-serif;
-}
-
-.h1 {
-    font-family: Verdana, sans-serif;
-}
-
 .section-header {
     text-align: center;
     margin-top: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+
+.languages-desc {
+    font-family: Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .languages {
+    font-family: Verdana, sans-serif;
     margin-left: 100px;
     font-size: 22px;
+}
+
+.languages-subpoint {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.hello-world-desc {
+    font-family: Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.data-structures-desc {
+    font-family: Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
 }
 
 .tutorial {
@@ -30,4 +54,5 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    margin-bottom: 20px;
 }

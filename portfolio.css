@@ -1,23 +1,19 @@
-.p {
-    font-family: Verdana, sans-serif;
-}
-
-.h1 {
-    font-family: Verdana, sans-serif;
-}
-
 .section-header {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
     text-align: center;
     margin-top: 30px;
 }
 
 .resume-text {
+    font-family: Verdana, sans-serif;
     padding-top: 10px;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .resume {
+    font-family: Verdana, sans-serif;
     display: block;
     color: inherit;
     font-size: 2.5rem;
@@ -33,18 +29,46 @@
     color: #1e4072;
 }
 
+.education-desc {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.education-class-container {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.education-class-col {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
 .http_server_img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .http_server_text {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 22px;
+    margin-top: 20px;
+    font-family: Verdana, sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.meta-desc {
+    margin-top: 20px;
+    font-family: Verdana, sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
 }
 
 .meta-slide {
@@ -57,8 +81,9 @@
 }
 
 .optiver {
-    margin-left: 100px;
-    margin-right: 100px;
+    font-family: Verdana, sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
